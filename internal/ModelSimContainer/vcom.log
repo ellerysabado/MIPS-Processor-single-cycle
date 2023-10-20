@@ -1,0 +1,87 @@
+QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+Start time: 13:42:08 on Oct 20,2023
+vcom -2008 -work internal/ModelSimContainer/work proj/src/MIPS_types.vhd internal/testpy/tb.vhd proj/src/MIPS_types.vhd proj/src/TopLevel/dffg.vhd proj/src/TopLevel/org2.vhd proj/src/TopLevel/nbitOr.vhd proj/src/TopLevel/andg2.vhd proj/src/TopLevel/MIPS_Processor.vhd proj/src/TopLevel/nbitNor.vhd proj/src/TopLevel/Decoder_5to32.vhd proj/src/TopLevel/MyAdder.vhd proj/src/TopLevel/one_BitAdder.vhd proj/src/TopLevel/inArr16.vhd proj/src/TopLevel/CompleteALU.vhd proj/src/TopLevel/N_OnesComp.vhd proj/src/TopLevel/adder_subtractor.vhd proj/src/TopLevel/Nbit_adder.vhd proj/src/TopLevel/mux2t1_N.vhd proj/src/TopLevel/Control.vhd proj/src/TopLevel/OnesComp.vhd proj/src/TopLevel/FullAdder.vhd proj/src/TopLevel/RegFile.vhd proj/src/TopLevel/nXor.vhd proj/src/TopLevel/Extender.vhd proj/src/TopLevel/Register_N.vhd proj/src/TopLevel/mux2t1.vhd proj/src/TopLevel/bus_array_type.vhd proj/src/TopLevel/newBarrelShifter.vhd proj/src/TopLevel/invg.vhd proj/src/TopLevel/FetchComponent.vhd proj/src/TopLevel/mem.vhd proj/src/TopLevel/nbitAnd.vhd proj/src/TopLevel/mux16t1.vhd proj/src/TopLevel/Add_Sub.vhd proj/src/TopLevel/Mux32t1.vhd proj/src/TopLevel/xorg2.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package MIPS_types
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+** Warning: proj/src/MIPS_types.vhd(16): (vcom-1615) Existing package 'MIPS_types' at line 16 will be overwritten.
+-- Compiling package MIPS_types
+** Warning: proj/src/MIPS_types.vhd(35): (vcom-1615) Existing package body 'MIPS_types(body)' at line 35 will be overwritten.
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+-- Loading package NUMERIC_STD
+-- Compiling entity nbitOr
+-- Compiling architecture arch of nbitOr
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+-- Loading package MIPS_types
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+-- Compiling entity nbitNor
+-- Compiling architecture arch of nbitNor
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Decoder_5to32
+-- Compiling architecture Behavioral of Decoder_5to32
+-- Compiling entity MyAdder
+-- Compiling architecture arch of MyAdder
+-- Compiling entity one_BitAdder
+-- Compiling architecture arch of one_BitAdder
+-- Compiling entity CompleteALU
+-- Compiling architecture arch of CompleteALU
+-- Compiling entity N_OnesComp
+-- Compiling architecture structural of N_OnesComp
+-- Compiling entity adder_subtractor
+-- Compiling architecture arch of adder_subtractor
+-- Compiling entity Nbit_adder
+-- Compiling architecture structure of Nbit_adder
+-- Compiling entity mux2t1_N
+-- Compiling architecture structural of mux2t1_N
+-- Compiling entity Control
+-- Compiling architecture dataflow of Control
+-- Compiling entity OnesComp
+-- Compiling architecture structure of OnesComp
+-- Compiling entity FullAdder
+-- Compiling architecture structure of FullAdder
+-- Compiling entity RegFile
+-- Compiling architecture mixed of RegFile
+-- Compiling entity nXor
+-- Compiling architecture arch of nXor
+-- Compiling entity Extender
+-- Compiling architecture Behavioral of Extender
+-- Compiling entity Register_N
+-- Compiling architecture structure of Register_N
+-- Compiling entity mux2t1
+-- Compiling architecture structure of mux2t1
+-- Compiling package bus_array_type
+-- Compiling entity newBarrelShifter
+-- Compiling architecture Structual of newBarrelShifter
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+-- Compiling entity FetchComponent
+-- Compiling architecture structural of FetchComponent
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+-- Compiling entity nbitAnd
+-- Compiling architecture arch of nbitAnd
+-- Compiling entity mux16to1
+-- Compiling architecture Dataflow of mux16to1
+-- Compiling entity Add_Sub
+-- Compiling architecture structure of Add_Sub
+-- Compiling entity Mux32t1
+-- Compiling architecture Dataflow of Mux32t1
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+End time: 13:42:08 on Oct 20,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2
