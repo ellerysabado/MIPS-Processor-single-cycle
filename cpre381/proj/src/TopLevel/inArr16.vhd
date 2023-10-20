@@ -1,0 +1,5 @@
+--library IEEE;
+--use IEEE.std_logic_1164.all;
+--package inArr16 is 
+--type inArr16 is array(15 downto 0) of std_logic_vector(31 downto 0);
+--end package inArr16;
